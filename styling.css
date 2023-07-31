@@ -1,0 +1,139 @@
+    
+       .carrt{
+        display:inline-block;
+       line-height: 0.5px;
+       color:white;
+
+       }
+       .Navbar{
+      
+        background-color: rgb(57, 57, 92);
+        color:white;
+       }
+       select{
+        border:none;
+         background-color: rgb(57, 57, 92);
+         color:white;
+       }
+       select option{
+        padding-bottom: 5px;
+       }
+       .search{
+        border-radius: 4px 0px 0px 4px;
+       }
+       .noun{
+        line-height: 1.5px;
+       
+       }
+    .footer{
+        background-color:rgb(91, 91, 112);
+        color:white;
+    }
+    @media screen and (max-width:1029px){
+      select{
+        display:none;
+      }
+    }
+    @media screen and (max-width: 570px){
+      .sign a{
+        display:none;
+      }
+    }
+    .sign{
+        text-decoration: none;
+        color:black;
+        font-size: 24px;
+        display:inline-block;
+        width:100px;
+        padding-left: 8px;
+        border-radius: 8px;
+        padding-bottom: 0px;
+    }
+    ul li a{
+        text-decoration: none;
+        color:black;
+        display:inline-block;
+        float:left;
+        padding-left: 20px;
+    }
+    ul li a:hover{
+        color:black;
+    }
+    .sign:hover{
+        color:black;
+        
+    }
+    .search{
+      height:45px;
+      border:none;
+      border-radius: 25px 0px 0px 25px;
+      padding-left: 30px;
+    }
+    .search2{
+      height:45px;
+      border:none;
+      border-radius: 0px 25px 25px 0px;
+     left: -20px; 
+    }
+
+      .webn{
+      font-size: 24px;
+      
+      }
+      .box{
+        /* position: absolute;
+        background-color: red; */
+      }
+    .circle{
+      width:200px;
+      height:200px;
+     background: url(art9.jpg);
+     border-radius: 50%;
+     float:left;
+     shape-outside: circle();
+     margin:60px 30px 30px 0px;
+    }
+    .info2{
+      text-align: justify;
+    }
+   .neen{
+    height:700px;
+   }
+   .box1{
+    border-radius: 30px;
+    background-color: white;
+
+   }
+   .bigbox{
+    background-color: rgb(226, 226, 226);
+   }
+ .foot{
+  background-color: rgb(110, 110, 246);
+ }
+.semibox{
+  /* width:99%; */
+  align-items: center;
+  /* border:1px solid black; */
+  padding-left: 10x;
+
+  background-color: white;
+
+}
+
+.post{
+  width:100%;
+  height:90vh;
+  border-radius: 20px;
+}
+.box2{
+ 
+  height:83vh;
+}
+.view{
+  width:90px;
+  height:90px;
+  border: 1px solid orangered;
+  border-radius: 50%;
+  float:left;
+  /* display: inline-block; */
+}
